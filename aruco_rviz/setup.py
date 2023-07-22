@@ -25,6 +25,7 @@ setup(
         'console_scripts': [
             'aruco_recog_node = aruco_rviz.aruco_recognition_node:main',
             'aruco_tf_node = aruco_rviz.tf_broadcast_node:main',
+            'aruco_text_marker = aruco_rviz.text_marker_node:main'
         ],
     },
 )

@@ -134,7 +134,7 @@ class MarkerDetector(Node):
                 # print(ids, "  ", corners)
         rgb_cv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2RGB)
         cv2.imshow("frame", rgb_cv_image)
-        cv2.waitKey(50)
+        cv2.waitKey(100)
 
 def main(args=None):
     rp.init(args=args)
